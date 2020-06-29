@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 18, 2020, 6:13:12 PM
+    Author     : rafli
+*/
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../fonts/muli/Muli-Bold.ttf"); }
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/poppins/Poppins-Regular.ttf"); }
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf"); }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: url("../img/form-wizard-bg.png");
+  background-size: cover;
+  width: 100%;
+  /*height: 100vh;*/
+  /*overflow: hidden;*/
+  color: #fff;
+  font-family: "Poppins-Regular";
+  /*font-size: 15px;*/
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menu-links ul li {
+    color: #fff;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.button {
+  background-color: #e4bd37;
+  border: none;
+  height: 40px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 35px;
+  display: inline-flex;
+}
+
+.container h1{
+    padding-top: 90px;
+    font-weight: bold;
+}
+.container .row{
+    padding-top: 50px;
+}
+.box{
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.container{
+    padding-bottom: 50px;
+}
+
